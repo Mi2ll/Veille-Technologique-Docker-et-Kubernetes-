@@ -1,2 +1,2 @@
-# Veille-Technologique-Docker-et-Kubernetes-
-Veille sur la conteneurisation de données (Docker et Kubernetes)
+# Veille Technologique sur la conteneurisation de données (DOCKER ET KUBERNETES
+
