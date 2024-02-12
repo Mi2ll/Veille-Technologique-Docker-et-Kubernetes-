@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: veille
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: veille
+  template:
+    metadata:
+      labels:
+        app: veille
+    spec:
+      containers:
+      - name: veille
+        image: veille
+        ports:
+        - containerPort: 8080
+
+
+        
